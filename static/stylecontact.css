@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Tapestry&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    margin: 12px 0px;
+}
+.container{
+   
+    min-height: 80vh;
+}
+.container h1{
+    font-size: 36px;
+    font-family: 'Macondo', cursive;
+}
+.myform {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+
+}
+
+.myinput {
+    outline: none;
+    text-align: center;
+    border: 2px solid violet;
+    border-radius: 15px;
+    font-size: 16px;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+}
+
+.btn {
+    cursor: pointer;
+    text-transform: capitalize;
+    padding:8px 16px;
+    font-size: 18px;
+    border: 2px solid violet;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    outline: none;
+    margin: 26px;
+}

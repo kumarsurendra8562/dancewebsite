@@ -1,0 +1,61 @@
+doctype html
+html
+  head
+    title RajClinic
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+      ul 
+        div#logo
+          img(src="/static/img/bglogo.png")
+          | HDA
+        li #[a(href="/")Home]
+        li #[a(href="/")Contact]
+        li #[a(href="/")About ]
+        li #[a(href="/")Appointment]
+        li #[a(href="/")Services]
+    section#introsection
+      div  Welcome to Surendra Dance Academy
+      div.small  Eat Sleep Dance Repeat
+
+    section#missionsection
+      h2  Our Mission
+      div.card
+        h3 Dance Perfection
+        div.cardbox
+           div.card-img 
+             img(src="/static/img/bglogo.png", alt="")
+
+           div.cardcontent 
+              p this is the best dance academy 
+      div.card
+        h3 Dance the way you like
+        div.cardbox
+           div.card-img 
+             img(src="/static/img/bglogo.png", alt="")
+
+           div.cardcontent 
+              p this is the best dance academy 
+      div.card
+        h3 Expert Teaching 
+        div.cardbox
+           div.card-img 
+             img(src="/static/img/bglogo.png", alt="")
+
+           div.cardcontent 
+              p this is the best dance academy 
+
+    section#sponsersection
+        h2  our sponsers 
+        div#sponsers 
+         img(src="/static/img/logo1.png", alt="sponsers", class="spImage")
+         img(src="/static/img/logo2.png", alt="sponsers", class="spImage")
+         img(src="/static/img/logo3.png", alt="sponsers", class="spImage")
+         img(src="/static/img/logo4.png", alt="sponsers", class="spImage")
+
+    footer#footer 
+      |  copyright  &copy 2019 RajClinic.com | All rights reserved    
+
+    script
+      include ../static/index.js

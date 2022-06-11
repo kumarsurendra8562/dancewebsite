@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title RajClinic
+    block scripts
+    block style 
+    
+  body
+    nav#navbar.top 
+      ul 
+        div#logo
+          img(src="/static/img/bglogo.png")
+          | HDA
+        li #[a(href="/") Home]
+        li #[a(href="/contact") Contact]
+        li #[a(href="/") About ]
+        li #[a(href="/") Appointment]
+        li #[a(href="/") Services]
+    block content
+    footer#footer 
+        |  copyright  &copy 2019 RajClinic.com | All rights reserved   
+     
+        
